@@ -16,7 +16,7 @@ public class AugmentAOE extends AbstractAugment {
 
     @Override
     public SpellStats.Builder applyModifiers(SpellStats.Builder builder, AbstractSpellPart spellPart) {
-        builder.addAOE(1.0);
+        builder.addAOE(15.0);
         return super.applyModifiers(builder, spellPart);
     }
 
